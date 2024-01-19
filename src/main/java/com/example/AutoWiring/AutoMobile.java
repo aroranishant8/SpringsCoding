@@ -2,9 +2,13 @@ package com.example.AutoWiring;
 
 public class AutoMobile {
 
-    Brake brake;
-
+    //AutoWire By Name
+    Brake brake1;
     public void setBrake(Brake brake) {
-        this.brake = brake;
+        this.brake1 = brake;
     }
+
+    //AutoWire By Type
+    Steering steering;
+
 }

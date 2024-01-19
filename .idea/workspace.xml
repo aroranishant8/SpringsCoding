@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cd4eadc-7be0-4e62-8c36-dad5dafc16d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Brake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SetterArgInjection/BathRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SetterArgInjection/DiningRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SetterArgInjection/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SetterArgInjection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SetterArgInjection/StudyRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SetterArgInjection/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobileByType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobileWithConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Steering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Steering1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/Example1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/Example1/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/Example1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ConstructorArg/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ConstructorArg/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ConstructorArg/Example1/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ConstructorArg/Example1/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ConstructorArg/Example1/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutoWiring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutoWiring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/AutoMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/AutoMobile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "sap-11",
-    "last_opened_file_path": "/Users/nishant_coding_account/GitHub/Springs/src/main/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;sap-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nishant_coding_account/GitHub/Springs/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.AutoWiring" />
@@ -74,6 +65,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/ConstructorArg" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.AutoWiring" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.example.AutoWiring.Main">
