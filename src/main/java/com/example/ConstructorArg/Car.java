@@ -1,4 +1,4 @@
-package com.example.ConstructorArg.Example1;
+package com.example.ConstructorArg;
 
 public class Car {
 

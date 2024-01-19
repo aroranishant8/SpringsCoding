@@ -5,10 +5,10 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<!-- Define the Engine bean -->
-	<bean id="engine" class="com.example.ConstructorArg.Example1.Engine"	/>
+	<bean id="engine" class="com.example.ConstructorArg.Engine"	/>
 
-	<!-- Configure autowiring for the Car bean -->
-	<bean id="car" class="com.example.ConstructorArg.Example1.Car">
+
+	<bean id="car" class="com.example.ConstructorArg.Car">
 		<constructor-arg>
 			<ref bean="engine"></ref>
 		</constructor-arg>

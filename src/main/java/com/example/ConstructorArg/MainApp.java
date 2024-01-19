@@ -1,4 +1,4 @@
-package com.example.ConstructorArg.Example1;
+package com.example.ConstructorArg;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -7,7 +7,7 @@ public class MainApp {
     public static void main(String[] args) {
         // Load the Spring XML configuration
         //Both classes require spring context dependency
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("ConstructorArg/applicationContext.xml");
 
         // Retrieve the Car bean
         Car car = (Car) context.getBean("car");
