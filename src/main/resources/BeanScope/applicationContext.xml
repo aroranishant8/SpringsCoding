@@ -1,0 +1,21 @@
+<!-- applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.example.BeanScope.Car">
+        <property name="engine1" ref="engine"></property>
+        <property name="engine2" ref="engine"></property>
+        <property name="seat1" ref="seat"></property>
+        <property name="seat2" ref="seat"></property>
+    </bean>
+
+    <bean name="engine" class="com.example.BeanScope.Engine" scope="singleton">
+    </bean>
+    <bean id="seat" class="com.example.BeanScope.Seat" scope="prototype">
+    </bean>
+
+
+
+
+</beans>

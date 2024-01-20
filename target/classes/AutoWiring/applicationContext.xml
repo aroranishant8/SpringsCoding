@@ -2,23 +2,16 @@
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-
     <!---->
-
     <!--Autowire By Name-->
-
-    <bean id="AutoMobile" class="com.example.AutoWiring.AutoMobile" autowire="byName" >
-    </bean>
-    <bean name="brake" class="com.example.AutoWiring.Brake" ></bean>
-
+    <bean id="AutoMobile" class="com.example.AutoWiring.AutoMobile" autowire="byName"></bean>
+    <bean name="brake" class="com.example.AutoWiring.Brake"></bean>
     <!--Autowire By Type-->
-    <bean id="AutoMobile1" class="com.example.AutoWiring.AutoMobileByType" autowire="byType" >
-    </bean>
-    <bean name="steering" class="com.example.AutoWiring.Steering" ></bean>
-
+    <bean id="AutoMobile1" class="com.example.AutoWiring.AutoMobileByType" autowire="byType"></bean>
+    <bean name="steering" class="com.example.AutoWiring.Steering"></bean>
     <!--Autowire By Constructor-->
-    <bean id="AutoMobile2" class="com.example.AutoWiring.AutoMobileWithConstructor" autowire="constructor" >
-    </bean>
-<!--    The below will give org.springframework.beans.factory.NoUniqueBeanDefinitionException-->
-<!--    <bean name="steering1" class="com.example.AutoWiring.Steering" ></bean>-->
+    <bean id="AutoMobile2" class="com.example.AutoWiring.AutoMobileWithConstructor" autowire="constructor"></bean>
+    <!--    The below will give org.springframework.beans.factory.NoUniqueBeanDefinitionException . as Bytype
+    expects only one bean with a one type-->
+    <!--    <bean name="steering1" class="com.example.AutoWiring.Steering" ></bean>-->
 </beans>
