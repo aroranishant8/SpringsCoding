@@ -12,10 +12,10 @@ public class House {
     public void setBathRoom(BathRoom bathRoom) {
         this.bathRoom = bathRoom;
     }
+
     public void setStudyRoom(StudyRoom studyRoom) {
         this.studyRoom = studyRoom;
     }
-
 
 
 }

@@ -11,6 +11,7 @@ public class Car {
     public void setEngine1(Engine engine) {
         this.engine1 = engine;
     }
+
     public void setEngine2(Engine engine) {
         this.engine2 = engine;
     }
@@ -18,6 +19,7 @@ public class Car {
     public void setSeat1(Seat seat) {
         this.seat1 = seat;
     }
+
     public void setSeat2(Seat seat) {
         this.seat2 = seat;
     }

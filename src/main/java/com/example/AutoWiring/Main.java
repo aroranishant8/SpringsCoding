@@ -9,7 +9,7 @@ public class Main {
         ApplicationContext applicationContext = new
                 ClassPathXmlApplicationContext("AutoWiring/applicationContext.xml");
         //AutoWire By Name
-        AutoMobile autoMobile= (AutoMobile) applicationContext.getBean("AutoMobile");
+        AutoMobile autoMobile = (AutoMobile) applicationContext.getBean("AutoMobile");
         System.out.println(autoMobile.brake1); // null without autowiring by name
 
         //AutoWire By Type
@@ -19,7 +19,6 @@ public class Main {
         //AutoWire By Constructor
         AutoMobileWithConstructor autoMobileWithConstructor = (AutoMobileWithConstructor) applicationContext.getBean("AutoMobile2");
         System.out.println(autoMobileWithConstructor.steering); // null without autowiring by constructor
-
 
 
     }

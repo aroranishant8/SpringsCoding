@@ -1,0 +1,19 @@
+<!-- applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--Define Room Bean-->
+    <bean id="House" class="com.example.SetterArgInjection.House">
+        <property name="studyRoom" ref="StudyRoom"></property>
+        <property name="bathRoom" ref="BathRoom"></property>
+        <property name="diningRoom" ref="DiningRoom"></property>
+    </bean>
+    <!--Order of beans dont matter here. All are initialized simultaneously-->
+    <!---->
+    <!--Till now , i have not used Autowiring. If i pass parent Room class here, it will throw an error
+    though it is a parent class
+    So lets talk about Room class in Autowiring, for now i have deleted the class-->
+    <bean id="BathRoom" class="com.example.SetterArgInjection.BathRoom"></bean>
+    <bean id="StudyRoom" class="com.example.SetterArgInjection.StudyRoom"></bean>
+    <bean id="DiningRoom" class="com.example.SetterArgInjection.DiningRoom"></bean>
+</beans>

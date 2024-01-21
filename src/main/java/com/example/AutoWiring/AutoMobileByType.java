@@ -3,7 +3,6 @@ package com.example.AutoWiring;
 public class AutoMobileByType {
 
 
-
     //AutoWire By Type
     Steering steering;
 
