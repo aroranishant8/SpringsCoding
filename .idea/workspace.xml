@@ -5,37 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cd4eadc-7be0-4e62-8c36-dad5dafc16d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AnnotationBasedConfig/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AnnotationBasedConfig/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContextForAnnotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies/HomeAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies/OfficeAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/AutoWiring/MultipleDependencies/applicationContextForAnnotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/AutoMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobileByType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/AutoMobileByType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/AutoMobileWithConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/AutoMobileWithConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Brake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/Brake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Steering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/Steering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiring/Steering1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingXML/Steering1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AutoWiring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Springs-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Springs-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoWiring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutoWiring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/AutoMobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/AutoMobileByType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/AutoMobileWithConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Brake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Steering.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/AutoWiring/Steering1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/AutoWiring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/BeanScope/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/ConstructorArg/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/SetterArgInjection/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "sap-11",
-    "last_opened_file_path": "/Users/nishant_coding_account/GitHub/SpringsCoding/src/main/resources/AutoWiring",
+    "last_opened_file_path": "/Users/nishant_coding_account/GitHub/SpringsCoding/src/main/resources/AutoWiring/MultipleDependencies",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -83,11 +60,11 @@
       <recent name="com.example.SetterArgInjection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/AutoWiring/MultipleDependencies" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation/MultipleDependencies" />
       <recent name="$PROJECT_DIR$/src/main/resources/AutoWiring" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/AutoWiringUsingAnnotation" />
       <recent name="$PROJECT_DIR$/src/main/resources/AnnotationBasedConfig" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/SetterArgInjection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -95,11 +72,12 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.AutoWiringUsingAnnotation.MultipleDependencies" />
       <recent name="com.example.AnnotationBasedConfig" />
       <recent name="com.example.AutoWiring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.AutoWiringUsingAnnotation.Main">
+  <component name="RunManager" selected="Application.com.example.AutoWiringUsingAnnotation.MultipleDependencies.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.SetterArgInjection.Main" />
       <module name="Springs" />
@@ -119,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.AutoWiringUsingAnnotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.AutoWiringUsingAnnotation.MultipleDependencies.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AutoWiringUsingAnnotation.MultipleDependencies.Main" />
+      <module name="SpringsCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AutoWiringUsingAnnotation.MultipleDependencies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.ConstructorArg.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ConstructorArg.MainApp" />
-      <module name="Springs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ConstructorArg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.AutoWiringUsingAnnotation.MultipleDependencies.Main" />
         <item itemvalue="Application.com.example.AutoWiringUsingAnnotation.Main" />
         <item itemvalue="Application.com.example.AutoWiringUsingXML.Main" />
         <item itemvalue="Application.com.example.BeanScope.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.example.ConstructorArg.MainApp" />
       </list>
     </recent_temporary>
   </component>
