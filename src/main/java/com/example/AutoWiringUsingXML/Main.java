@@ -1,4 +1,4 @@
-package com.example.AutoWiring;
+package com.example.AutoWiringUsingXML;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

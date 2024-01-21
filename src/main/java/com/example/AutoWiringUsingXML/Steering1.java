@@ -1,4 +1,4 @@
-package com.example.AutoWiring;
+package com.example.AutoWiringUsingXML;
 
 public class Steering1 {
     @Override
